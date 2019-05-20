@@ -70,7 +70,7 @@ def DFIntConverter(values, outputList):
 			outputList.append(DFInt)
 
 # Color coding function
-def colorCode(val, list):
+def colorCode(val):
 	color='darkblue'
 	return 'color: %s' % color
 
