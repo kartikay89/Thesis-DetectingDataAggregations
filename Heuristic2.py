@@ -4,13 +4,21 @@ Detecting data aggregation - Multiplication
 """
 import pandas as pd
 import numpy as np
+import sys, os
 from collections import Counter
 from functions import *
 
-csvData = pd.read_csv("IndustrialCommwastebusiness.csv")
-smallData = csvData.iloc[:,:]
-# print(smallData)
-pd.options.display.max_columns = None
+try:
+    _, file, output_file = sys.argv
+except:
+    print('Usage: python3 Heuristic2.py file output_file')
+
+csvData = pd.read_csv(file)
+
+# csvData = pd.read_csv("IndustrialCommwastebusiness.csv")
+# smallData = csvData.iloc[:,:]
+# # print(smallData)
+# pd.options.display.max_columns = None
 # print(csvData.head())
 
 dataDF = []
@@ -140,7 +148,7 @@ for match, row_index_list in subsetSumDict.items():
 print(best_match_per_column)
 
 # Write file:
-with open('output_fileMul.txt', 'w') as fw:
+with open(output_file, 'w') as fw:
     for agg_col_index in sorted(best_match_per_column, key=lambda agg_col_index: best_match_per_column[agg_col_index][2]) [::-1] :
         col_index_subset, row_index_list, score = best_match_per_column[agg_col_index]
 #         print('Indices %s sum to index %d with score %.4f!' % (col_index_subset, agg_col_index, score))
