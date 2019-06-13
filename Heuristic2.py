@@ -138,3 +138,11 @@ for match, row_index_list in subsetSumDict.items():
         pass
 
 print(best_match_per_column)
+
+# Write file:
+with open('output_fileMul.txt', 'w') as fw:
+    for agg_col_index in sorted(best_match_per_column, key=lambda agg_col_index: best_match_per_column[agg_col_index][2]) [::-1] :
+        col_index_subset, row_index_list, score = best_match_per_column[agg_col_index]
+#         print('Indices %s sum to index %d with score %.4f!' % (col_index_subset, agg_col_index, score))
+        row_index_pairs = set((i,i) for i in row_index_list)
+        print('Columns[%s,%d]/Rows[%s]\t%.5f' % (tuple(col_index_subset),agg_col_index, row_index_pairs, score ), file=fw)
