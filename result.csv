@@ -1,0 +1,40 @@
+,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+0,,,,,,,,,,,,,,,,,,,
+1,England,,,,,,,,,,,,,000 Tonnes,,,,,
+2,Sector,Waste type and code,oils & solvents,"paints, varnishes, etc.",industrial sludges,other chemical wastes,Metallic Wastes,paper and card,"other non-metallic, non-mineral wastes",Discarded equipment,food,Other animal and plant waste,Sorting residues,other mixed general waste,Common Sludges,combustion wastes,C&D,Other mineral wastes,Total
+3,,Sector description,221,222,223,224,23,241,242,25,261,262,271,272,28,291,292,293,
+4,Industrial,,,,,,,,,,,,,,,,,,
+5,1,"Food, drink and tobacco",20,0,159,40,50,262,187,1,4083,21,0,1204,495,15,15,679,7230
+6,2,"Manufacture of textiles, wearing apparel, leather, luggage, handbags and footwear",1,1,498,11,14,19,358,0,0,,,329,,,3,,1234
+7,3,Wood and wood products,3,13,0,3,13,10,1153,2,0,,,248,,2,25,0,1471
+8,4,"Manufacture of pulp, paper and paper products",2,53,169,7,10,568,43,0,1,,580,170,154,65,0,,1822
+9,5,"Publishing, printing and recording",15,23,1,43,70,1331,19,2,1,,85,572,2,0,10,0,2174
+10,6,"Production of coke, oil, gas, electricity, water",26,0,77,150,35,11,9,7,0,,,120,102,5590,18,37,6182
+11,7,"Manufacture of chemicals and chemical products; cleaning products, man-made fibres etc; rubber and plastic products",356,85,545,2666,89,159,227,6,21,,,940,2,24,63,75,5257
+12,8,Other non-metallic mineral products,5,6,10,5,159,24,76,4,1,,,209,3,22,651,1098,2272
+13,9,Manufacture of basic metals,54,1,62,86,316,11,9,1,0,0,0,161,2,3730,50,333,4815
+14,10,Manufacture of fabricated metal products,30,13,70,140,840,39,29,28,9,,,290,,26,2,10,1525
+15,11,Manufacture of machinery and equipment,31,6,7,11,248,51,106,3,1,1,,246,1,9,4,214,939
+16,12,"Manufacture of office machinery, computers, electrical, radio, television and communication equipment; medical and optical instruments and clocks",7,2,9,68,79,82,27,14,1,,,219,0,1,6,0,515
+17,13,Manufacture of motor vehicles and other transport equipment,34,17,14,35,736,49,98,18,3,,,317,0,115,10,29,1475
+18,14,Furniture and other manufacturing,1,1,0,2,69,38,186,3,1,,,366,,1,0,6,675
+19,,Total ind. (000s )tonnes,583,221,1621,3267,2727,2656,2526,88,4121,22,665,5392,761,9598,859,2482,37587
+20,Commercial,,,,,,,,,,,,,,,,,,
+21,Sector,Waste type,,,,,,,,,,,,,,,,,
+22,,Sector description,oils & solvents,"paints, varnishes, etc.",industrial sludges,other chemical wastes,Metallic Wastes,paper and card,"other non-metallic, non-mineral wastes",Discarded equipment,food,Other animal and plant waste,Sorting residues,other mixed general waste,Common Sludges,combustion wastes,C&D,Other mineral wastes,Total
+23,16,"Retail - motor vehicles, parts and fuel; wholesale; other retail",284,5,9,82,376,3642,1454,148,1647,19,,4852,74,34,125,1,12753
+24,17,"Hotels, catering",0,0,,58,5,167,722,1,153,,,2222,,,23,,3352
+25,18,"Transport, storage, communications",216,9,20,93,90,328,154,35,82,,,1071,40,,35,9,2182
+26,19,"Travel agents, other business, finance, real estate and computer related activities",6,1,3,415,77,1183,299,61,39,45,,4438,25,50,420,87,7150
+27,20,Miscellaneous,37,1,4,351,36,201,9,6,29,5,,800,3,7,55,9,1554
+28,21,Social work and public administration,2,0,,207,8,291,7,7,10,15,,785,,1,40,16,1390
+29,22,Education,0,0,0,137,12,163,30,3,107,0,,1401,11,,74,0,1939
+30,,Total comm. (000s) tonnes,546,16,36,1343,604,5976,2675,262,2067,84,0,15569,154,92,772,123,30320
+31,,,,,,,,,,,,,,,,,,,
+32,,Total (000s) tonnes,1130,237,1657,4610,3330,8631,5201,350,6189,106,665,20960,915,9690,1631,2605,67907
+33,,,,,,,,,,,,,,,,,,,
+34,"Source: Environment Agency, National Waste Production Survey 2002",,,,,,,,,,,,,,,,,,
+35,,,,,,,,,,,,,,,,,,,
+36,"Source publication: e-Digest of Environmental Statistics, Published February 2006 ",,,,,,,,,,,,,,,,,,
+37,"Department for Environment, Food and Rural Affairs ",,,,,,,,,,,,,,,,,,
+38,http://www.defra.gov.uk/environment/statistics/index.htm ,,,,,,,,,,,,,,,,,,

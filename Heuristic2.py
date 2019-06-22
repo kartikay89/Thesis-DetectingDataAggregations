@@ -31,8 +31,8 @@ for rownr, rows in csvData.iterrows():
 # filter function - returns the numeric data from the dataset
 filteredList = []
 filterInt(dataDF, filteredList)
-print("\n",filteredList)
-print(len(filteredList))
+# print("\n",filteredList)
+# print(len(filteredList))
 
 # Split the data into many small datasets
 # def splitData(filteredList, newWorkingList):
@@ -58,7 +58,7 @@ for rownr, row in enumerate(filteredList):
             if cell not in lookupDict:
                 lookupDict[cell] = set()
             lookupDict[cell].add((rownr, cellnr))
-print("LookUPDict:", lookupDict)
+# print("LookUPDict:", lookupDict)
 
 # Scoring lookup dict key:rownr
 ScorelookupDict = {}
@@ -68,7 +68,7 @@ for rownr, row in enumerate(filteredList):
             if cell not in ScorelookupDict:
                 ScorelookupDict[cell] = set()
             ScorelookupDict[cell].add(rownr)
-print("ScorelookupDict:", ScorelookupDict)
+# print("ScorelookupDict:", ScorelookupDict)
 
 
 # lookup dictionary for column header extraction
@@ -121,8 +121,8 @@ def matching(dict1, dict2):
                 # print(key1)
                 matches.append(key1)
 
-print(matching(ScorelookupDict, sumsDict))
-print(matches)
+# print(matching(ScorelookupDict, sumsDict))
+# print(matches)
 
 # Comparing matches to lookupDict
 def score(match, row_index_list):
@@ -145,7 +145,7 @@ for match, row_index_list in subsetSumDict.items():
     except:
         pass
 
-print(best_match_per_column)
+# print(best_match_per_column)
 
 # Write file:
 with open(output_file, 'w') as fw:
