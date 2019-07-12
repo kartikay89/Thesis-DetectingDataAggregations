@@ -138,10 +138,11 @@ best_match_per_column = {}
 for match, row_index_list in subsetSumDict.items():
     try:
         scores = score(match, subsetSumDict[match])
+        # print(scores)
         col_index_subset, agg_col_index = match
-        _, _, best_score = best_match_per_column.get(agg_col_index, (None, None, 0))
-        if scores > best_score:
-            best_match_per_column[agg_col_index] = (col_index_subset, row_index_list, scores)
+        # _, _, best_score = best_match_per_column.get(agg_col_index, (None, None, 0))
+        # if scores > best_score:
+        best_match_per_column[agg_col_index] = (col_index_subset, row_index_list, scores)
     except:
         pass
 
